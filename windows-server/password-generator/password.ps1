@@ -1,7 +1,7 @@
 #Initialize arrays for each column of the CSV along with special characters and an integer for a random number.
-$wordOneArray = @(Import-Csv -Path "C:\Users\smith_ben\NewPass\words.csv").WordOne
-$wordTwoArray = @(Import-Csv -Path "C:\Users\smith_ben\NewPass\words.csv").WordTwo
-$wordThreeArray = @(Import-Csv -Path "C:\Users\smithben\NewPass\words.csv").WordThree
+$wordOneArray = @(Import-Csv -Path "C:\Path\to\CSV").WordOne
+$wordTwoArray = @(Import-Csv -Path "C:\Path\to\CSV").WordTwo
+$wordThreeArray = @(Import-Csv -Path "C:\Path\to\CSV").WordThree
 $specialArray = @("!", "#", "$", "^", "*", ".", "?", "-", "", "+", "=")
 $number= Get-Random -Minimum 99 -Maximum 500
 
