@@ -5,4 +5,4 @@ This password generator was written with the objective of creating passwords tha
 
 The script should be accompanied by a 3 column CSV. Each column should contain random words of a given category. The categories can follow a convention (e.g. noun/adverb/verb) to make the password more memorable, or they can be entirely random. The script will randomly pull one word per category and separate each word with a number or symbol. The password will then be copied to the clipboard for easy pasting.
 
-When creating the accompanying CSV, make sure the number of items in each column is equal. The CSV can have as many rows as is desired.
+When creating the accompanying CSV, be sure that the columns are labeled WordOne, WordTwo, and WordThree.
